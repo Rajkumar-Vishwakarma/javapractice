@@ -8,6 +8,18 @@ public class Computers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/*
+		given an int N and a string of length equal to this int. 
+		The string will contain either 'S' or '.'
+		N - no of tables
+		S - student is seated
+		. - seat is empty
+		Two students can share a computer. A student can use a computer if it is to his 
+		immediate right or immediate left. We need to find min no of computers needed 
+		to accommodate all students or return -1 if all students can't be accommodated. 
+		*/
+		
+		
 		int result = 0;
 		int min = 0;
 		String lab = ".S.S..S.S...SS..SS..S..S.S";
